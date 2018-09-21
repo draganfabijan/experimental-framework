@@ -1,5 +1,4 @@
 require "rack"
-# require "thin"
 
 class MyApp
   def call(env)
