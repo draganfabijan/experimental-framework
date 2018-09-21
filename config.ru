@@ -1,2 +1,4 @@
-require "./my_app.rb"
-run MyApp.new
+require "./application.rb"
+
+use Rack::Reloader, 0
+run Application.new
